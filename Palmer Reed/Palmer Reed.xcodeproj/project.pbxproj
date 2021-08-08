@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4973706726BB7A5800B9A379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973706626BB7A5800B9A379 /* AppDelegate.swift */; };
+		4973706926BB7A5800B9A379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973706826BB7A5800B9A379 /* SceneDelegate.swift */; };
+		4973706B26BB7A5800B9A379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973706A26BB7A5800B9A379 /* ViewController.swift */; };
+		4973706E26BB7A5800B9A379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4973706C26BB7A5800B9A379 /* Main.storyboard */; };
+		4973707026BB7A5A00B9A379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4973706F26BB7A5A00B9A379 /* Assets.xcassets */; };
+		4973707326BB7A5A00B9A379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4973707126BB7A5A00B9A379 /* LaunchScreen.storyboard */; };
+		4973707E26BB7A5B00B9A379 /* Palmer_ReedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973707D26BB7A5B00B9A379 /* Palmer_ReedTests.swift */; };
+		4973708926BB7A5B00B9A379 /* Palmer_ReedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973708826BB7A5B00B9A379 /* Palmer_ReedUITests.swift */; };
+		497370A226BC500B00B9A379 /* smart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370A126BC500B00B9A379 /* smart.mp3 */; };
+		497370B226BC6A1B00B9A379 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497370B126BC6A1B00B9A379 /* MusicViewController.swift */; };
+		497370B426BC722F00B9A379 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497370B326BC722F00B9A379 /* PlayerViewController.swift */; };
+		497370BE26BF836900B9A379 /* JustMight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370B526BF836900B9A379 /* JustMight.mp3 */; };
+		497370BF26BF836900B9A379 /* NAH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370B626BF836900B9A379 /* NAH.mp3 */; };
+		497370C026BF836900B9A379 /* Overtime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370B726BF836900B9A379 /* Overtime.mp3 */; };
+		497370C126BF836900B9A379 /* Prototype.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370B826BF836900B9A379 /* Prototype.mp3 */; };
+		497370C226BF836900B9A379 /* Just Might.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370B926BF836900B9A379 /* Just Might.mp3 */; };
+		497370C326BF836900B9A379 /* money counter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370BA26BF836900B9A379 /* money counter.mp3 */; };
+		497370C426BF836900B9A379 /* Stuck On You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370BB26BF836900B9A379 /* Stuck On You.mp3 */; };
+		497370C526BF836900B9A379 /* OMW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370BC26BF836900B9A379 /* OMW.mp3 */; };
+		497370C626BF836900B9A379 /* What Did I Miss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497370BD26BF836900B9A379 /* What Did I Miss.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4973707A26BB7A5B00B9A379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4973705B26BB7A5800B9A379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4973706226BB7A5800B9A379;
+			remoteInfo = "Palmer Reed";
+		};
+		4973708526BB7A5B00B9A379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4973705B26BB7A5800B9A379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4973706226BB7A5800B9A379;
+			remoteInfo = "Palmer Reed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4973706326BB7A5800B9A379 /* Palmer Reed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Palmer Reed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4973706626BB7A5800B9A379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4973706826BB7A5800B9A379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4973706A26BB7A5800B9A379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4973706D26BB7A5800B9A379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4973706F26BB7A5A00B9A379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4973707226BB7A5A00B9A379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4973707426BB7A5A00B9A379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4973707926BB7A5B00B9A379 /* Palmer ReedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palmer ReedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4973707D26BB7A5B00B9A379 /* Palmer_ReedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palmer_ReedTests.swift; sourceTree = "<group>"; };
+		4973707F26BB7A5B00B9A379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4973708426BB7A5B00B9A379 /* Palmer ReedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palmer ReedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4973708826BB7A5B00B9A379 /* Palmer_ReedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palmer_ReedUITests.swift; sourceTree = "<group>"; };
+		4973708A26BB7A5B00B9A379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497370A126BC500B00B9A379 /* smart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smart.mp3; sourceTree = "<group>"; };
+		497370B126BC6A1B00B9A379 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		497370B326BC722F00B9A379 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		497370B526BF836900B9A379 /* JustMight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JustMight.mp3; sourceTree = "<group>"; };
+		497370B626BF836900B9A379 /* NAH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NAH.mp3; sourceTree = "<group>"; };
+		497370B726BF836900B9A379 /* Overtime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Overtime.mp3; sourceTree = "<group>"; };
+		497370B826BF836900B9A379 /* Prototype.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Prototype.mp3; sourceTree = "<group>"; };
+		497370B926BF836900B9A379 /* Just Might.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Just Might.mp3"; sourceTree = "<group>"; };
+		497370BA26BF836900B9A379 /* money counter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "money counter.mp3"; sourceTree = "<group>"; };
+		497370BB26BF836900B9A379 /* Stuck On You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stuck On You.mp3"; sourceTree = "<group>"; };
+		497370BC26BF836900B9A379 /* OMW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OMW.mp3; sourceTree = "<group>"; };
+		497370BD26BF836900B9A379 /* What Did I Miss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "What Did I Miss.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4973706026BB7A5800B9A379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4973707626BB7A5B00B9A379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4973708126BB7A5B00B9A379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4973705A26BB7A5800B9A379 = {
+			isa = PBXGroup;
+			children = (
+				4973709826BC4A4300B9A379 /* Sound */,
+				4973706526BB7A5800B9A379 /* Palmer Reed */,
+				4973707C26BB7A5B00B9A379 /* Palmer ReedTests */,
+				4973708726BB7A5B00B9A379 /* Palmer ReedUITests */,
+				4973706426BB7A5800B9A379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4973706426BB7A5800B9A379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4973706326BB7A5800B9A379 /* Palmer Reed.app */,
+				4973707926BB7A5B00B9A379 /* Palmer ReedTests.xctest */,
+				4973708426BB7A5B00B9A379 /* Palmer ReedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4973706526BB7A5800B9A379 /* Palmer Reed */ = {
+			isa = PBXGroup;
+			children = (
+				497370B126BC6A1B00B9A379 /* MusicViewController.swift */,
+				4973706626BB7A5800B9A379 /* AppDelegate.swift */,
+				4973706826BB7A5800B9A379 /* SceneDelegate.swift */,
+				4973706A26BB7A5800B9A379 /* ViewController.swift */,
+				4973706C26BB7A5800B9A379 /* Main.storyboard */,
+				4973706F26BB7A5A00B9A379 /* Assets.xcassets */,
+				4973707126BB7A5A00B9A379 /* LaunchScreen.storyboard */,
+				4973707426BB7A5A00B9A379 /* Info.plist */,
+				497370B326BC722F00B9A379 /* PlayerViewController.swift */,
+			);
+			path = "Palmer Reed";
+			sourceTree = "<group>";
+		};
+		4973707C26BB7A5B00B9A379 /* Palmer ReedTests */ = {
+			isa = PBXGroup;
+			children = (
+				4973707D26BB7A5B00B9A379 /* Palmer_ReedTests.swift */,
+				4973707F26BB7A5B00B9A379 /* Info.plist */,
+			);
+			path = "Palmer ReedTests";
+			sourceTree = "<group>";
+		};
+		4973708726BB7A5B00B9A379 /* Palmer ReedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4973708826BB7A5B00B9A379 /* Palmer_ReedUITests.swift */,
+				4973708A26BB7A5B00B9A379 /* Info.plist */,
+			);
+			path = "Palmer ReedUITests";
+			sourceTree = "<group>";
+		};
+		4973709826BC4A4300B9A379 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				497370B926BF836900B9A379 /* Just Might.mp3 */,
+				497370B526BF836900B9A379 /* JustMight.mp3 */,
+				497370BA26BF836900B9A379 /* money counter.mp3 */,
+				497370B626BF836900B9A379 /* NAH.mp3 */,
+				497370BC26BF836900B9A379 /* OMW.mp3 */,
+				497370B726BF836900B9A379 /* Overtime.mp3 */,
+				497370B826BF836900B9A379 /* Prototype.mp3 */,
+				497370BB26BF836900B9A379 /* Stuck On You.mp3 */,
+				497370BD26BF836900B9A379 /* What Did I Miss.mp3 */,
+				497370A126BC500B00B9A379 /* smart.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4973706226BB7A5800B9A379 /* Palmer Reed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4973708D26BB7A5B00B9A379 /* Build configuration list for PBXNativeTarget "Palmer Reed" */;
+			buildPhases = (
+				4973705F26BB7A5800B9A379 /* Sources */,
+				4973706026BB7A5800B9A379 /* Frameworks */,
+				4973706126BB7A5800B9A379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Palmer Reed";
+			productName = "Palmer Reed";
+			productReference = 4973706326BB7A5800B9A379 /* Palmer Reed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4973707826BB7A5B00B9A379 /* Palmer ReedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4973709026BB7A5B00B9A379 /* Build configuration list for PBXNativeTarget "Palmer ReedTests" */;
+			buildPhases = (
+				4973707526BB7A5B00B9A379 /* Sources */,
+				4973707626BB7A5B00B9A379 /* Frameworks */,
+				4973707726BB7A5B00B9A379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4973707B26BB7A5B00B9A379 /* PBXTargetDependency */,
+			);
+			name = "Palmer ReedTests";
+			productName = "Palmer ReedTests";
+			productReference = 4973707926BB7A5B00B9A379 /* Palmer ReedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4973708326BB7A5B00B9A379 /* Palmer ReedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4973709326BB7A5B00B9A379 /* Build configuration list for PBXNativeTarget "Palmer ReedUITests" */;
+			buildPhases = (
+				4973708026BB7A5B00B9A379 /* Sources */,
+				4973708126BB7A5B00B9A379 /* Frameworks */,
+				4973708226BB7A5B00B9A379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4973708626BB7A5B00B9A379 /* PBXTargetDependency */,
+			);
+			name = "Palmer ReedUITests";
+			productName = "Palmer ReedUITests";
+			productReference = 4973708426BB7A5B00B9A379 /* Palmer ReedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4973705B26BB7A5800B9A379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4973706226BB7A5800B9A379 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4973707826BB7A5B00B9A379 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4973706226BB7A5800B9A379;
+					};
+					4973708326BB7A5B00B9A379 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4973706226BB7A5800B9A379;
+					};
+				};
+			};
+			buildConfigurationList = 4973705E26BB7A5800B9A379 /* Build configuration list for PBXProject "Palmer Reed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4973705A26BB7A5800B9A379;
+			productRefGroup = 4973706426BB7A5800B9A379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4973706226BB7A5800B9A379 /* Palmer Reed */,
+				4973707826BB7A5B00B9A379 /* Palmer ReedTests */,
+				4973708326BB7A5B00B9A379 /* Palmer ReedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4973706126BB7A5800B9A379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497370C626BF836900B9A379 /* What Did I Miss.mp3 in Resources */,
+				497370C526BF836900B9A379 /* OMW.mp3 in Resources */,
+				497370BF26BF836900B9A379 /* NAH.mp3 in Resources */,
+				497370C126BF836900B9A379 /* Prototype.mp3 in Resources */,
+				4973707326BB7A5A00B9A379 /* LaunchScreen.storyboard in Resources */,
+				497370C026BF836900B9A379 /* Overtime.mp3 in Resources */,
+				497370BE26BF836900B9A379 /* JustMight.mp3 in Resources */,
+				497370C326BF836900B9A379 /* money counter.mp3 in Resources */,
+				4973707026BB7A5A00B9A379 /* Assets.xcassets in Resources */,
+				497370A226BC500B00B9A379 /* smart.mp3 in Resources */,
+				497370C226BF836900B9A379 /* Just Might.mp3 in Resources */,
+				497370C426BF836900B9A379 /* Stuck On You.mp3 in Resources */,
+				4973706E26BB7A5800B9A379 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4973707726BB7A5B00B9A379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4973708226BB7A5B00B9A379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4973705F26BB7A5800B9A379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497370B226BC6A1B00B9A379 /* MusicViewController.swift in Sources */,
+				4973706B26BB7A5800B9A379 /* ViewController.swift in Sources */,
+				4973706726BB7A5800B9A379 /* AppDelegate.swift in Sources */,
+				4973706926BB7A5800B9A379 /* SceneDelegate.swift in Sources */,
+				497370B426BC722F00B9A379 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4973707526BB7A5B00B9A379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4973707E26BB7A5B00B9A379 /* Palmer_ReedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4973708026BB7A5B00B9A379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4973708926BB7A5B00B9A379 /* Palmer_ReedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4973707B26BB7A5B00B9A379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4973706226BB7A5800B9A379 /* Palmer Reed */;
+			targetProxy = 4973707A26BB7A5B00B9A379 /* PBXContainerItemProxy */;
+		};
+		4973708626BB7A5B00B9A379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4973706226BB7A5800B9A379 /* Palmer Reed */;
+			targetProxy = 4973708526BB7A5B00B9A379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4973706C26BB7A5800B9A379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4973706D26BB7A5800B9A379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4973707126BB7A5A00B9A379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4973707226BB7A5A00B9A379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4973708B26BB7A5B00B9A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4973708C26BB7A5B00B9A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4973708E26BB7A5B00B9A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZGX3L4L92;
+				INFOPLIST_FILE = "Palmer Reed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.carlosbelardo.Palmer-Reed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4973708F26BB7A5B00B9A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZGX3L4L92;
+				INFOPLIST_FILE = "Palmer Reed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.carlosbelardo.Palmer-Reed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4973709126BB7A5B00B9A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZGX3L4L92;
+				INFOPLIST_FILE = "Palmer ReedTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.carlosbelardo.Palmer-ReedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palmer Reed.app/Palmer Reed";
+			};
+			name = Debug;
+		};
+		4973709226BB7A5B00B9A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZGX3L4L92;
+				INFOPLIST_FILE = "Palmer ReedTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.carlosbelardo.Palmer-ReedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palmer Reed.app/Palmer Reed";
+			};
+			name = Release;
+		};
+		4973709426BB7A5B00B9A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZGX3L4L92;
+				INFOPLIST_FILE = "Palmer ReedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.carlosbelardo.Palmer-ReedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Palmer Reed";
+			};
+			name = Debug;
+		};
+		4973709526BB7A5B00B9A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZGX3L4L92;
+				INFOPLIST_FILE = "Palmer ReedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.carlosbelardo.Palmer-ReedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Palmer Reed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4973705E26BB7A5800B9A379 /* Build configuration list for PBXProject "Palmer Reed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4973708B26BB7A5B00B9A379 /* Debug */,
+				4973708C26BB7A5B00B9A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4973708D26BB7A5B00B9A379 /* Build configuration list for PBXNativeTarget "Palmer Reed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4973708E26BB7A5B00B9A379 /* Debug */,
+				4973708F26BB7A5B00B9A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4973709026BB7A5B00B9A379 /* Build configuration list for PBXNativeTarget "Palmer ReedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4973709126BB7A5B00B9A379 /* Debug */,
+				4973709226BB7A5B00B9A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4973709326BB7A5B00B9A379 /* Build configuration list for PBXNativeTarget "Palmer ReedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4973709426BB7A5B00B9A379 /* Debug */,
+				4973709526BB7A5B00B9A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4973705B26BB7A5800B9A379 /* Project object */;
+}
