@@ -1,0 +1,6 @@
+framework module Pods_Palmer_ReedTests {
+  umbrella header "Pods-Palmer ReedTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

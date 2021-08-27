@@ -1,0 +1,6 @@
+framework module Pods_Palmer_Reed {
+  umbrella header "Pods-Palmer Reed-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,11 +6,16 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Rounded-Bold.otf">
+            <string>SFProRounded-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="u1m-US-Bmx">
             <objects>
-                <viewController id="gi9-dR-9eE" customClass="ViewController" customModule="UpTime" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gi9-dR-9eE" customClass="ViewController" customModule="Palmer_Reed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QAN-to-RrG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,29 +190,118 @@
             </objects>
             <point key="canvasLocation" x="1651" y="90"/>
         </scene>
-        <!--Contact-->
+        <!--Connect-->
         <scene sceneID="2fn-KI-qeh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="41R-se-9nA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="jrU-W6-4dC" sceneMemberID="viewController">
+                <viewController id="jrU-W6-4dC" customClass="ContactViewController" customModule="Palmer_Reed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HS7-uw-iDc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect with Palmer Reed " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdC-q9-t3c">
+                                <rect key="frame" x="81" y="64" width="252" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.84589116760000005" green="0.76558452840000002" blue="0.6879445314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVn-2C-2Sn">
+                                <rect key="frame" x="81" y="148" width="252" height="30"/>
+                                <color key="backgroundColor" red="0.84589116760000005" green="0.76558452840000002" blue="0.6879445314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="emailPressed:" destination="jrU-W6-4dC" eventType="touchUpInside" id="IaO-Ep-d6B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xeb-Cz-Gd7">
+                                <rect key="frame" x="81" y="288" width="252" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.67450980392156867" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFProRounded-Bold" family="SF Pro Rounded" pointSize="15"/>
+                                <state key="normal" title="Twitter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="twitterPressed:" destination="jrU-W6-4dC" eventType="touchUpInside" id="2fm-xC-9De"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHD-o0-oaj">
+                                <rect key="frame" x="81" y="358" width="252" height="30"/>
+                                <color key="backgroundColor" red="0.90277451279999998" green="0.26644998790000002" blue="0.3097807467" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="SFProRounded-Bold" family="SF Pro Rounded" pointSize="15"/>
+                                <state key="normal" title="Apple Music">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="applePressed:" destination="jrU-W6-4dC" eventType="touchUpInside" id="KAA-lh-Ybr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOE-VY-adn">
+                                <rect key="frame" x="81" y="218" width="252" height="30"/>
+                                <color key="backgroundColor" red="0.11764705882352941" green="0.84313725490196079" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Spotify">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SpotifyPressed:" destination="jrU-W6-4dC" eventType="touchUpInside" id="joY-jd-57R"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="90E-i3-G8t"/>
                         <color key="backgroundColor" white="0.11627186890000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xeb-Cz-Gd7" firstAttribute="centerX" secondItem="MOE-VY-adn" secondAttribute="centerX" id="0yd-v3-LrW"/>
+                            <constraint firstItem="DdC-q9-t3c" firstAttribute="top" secondItem="90E-i3-G8t" secondAttribute="top" constant="20" id="1Vv-Hu-ceR"/>
+                            <constraint firstItem="UVn-2C-2Sn" firstAttribute="width" secondItem="DdC-q9-t3c" secondAttribute="width" id="2et-Ao-XUm"/>
+                            <constraint firstItem="DdC-q9-t3c" firstAttribute="centerX" secondItem="90E-i3-G8t" secondAttribute="centerX" id="30g-P1-yjl"/>
+                            <constraint firstItem="hHD-o0-oaj" firstAttribute="height" secondItem="Xeb-Cz-Gd7" secondAttribute="height" id="8KL-bv-7oE"/>
+                            <constraint firstItem="UVn-2C-2Sn" firstAttribute="top" secondItem="DdC-q9-t3c" secondAttribute="bottom" constant="60" id="AID-2o-Lh0"/>
+                            <constraint firstItem="Xeb-Cz-Gd7" firstAttribute="width" secondItem="MOE-VY-adn" secondAttribute="width" id="EzD-Il-4bv"/>
+                            <constraint firstItem="hHD-o0-oaj" firstAttribute="width" secondItem="Xeb-Cz-Gd7" secondAttribute="width" id="JDF-96-eJP"/>
+                            <constraint firstItem="MOE-VY-adn" firstAttribute="top" secondItem="UVn-2C-2Sn" secondAttribute="bottom" constant="40" id="JqX-7j-xEu"/>
+                            <constraint firstItem="MOE-VY-adn" firstAttribute="width" secondItem="UVn-2C-2Sn" secondAttribute="width" id="L0v-GI-iyh"/>
+                            <constraint firstItem="UVn-2C-2Sn" firstAttribute="centerX" secondItem="90E-i3-G8t" secondAttribute="centerX" id="eC0-sc-kxR"/>
+                            <constraint firstItem="MOE-VY-adn" firstAttribute="height" secondItem="UVn-2C-2Sn" secondAttribute="height" id="h5U-fn-Bab"/>
+                            <constraint firstItem="MOE-VY-adn" firstAttribute="centerX" secondItem="UVn-2C-2Sn" secondAttribute="centerX" id="nmu-HP-Djb"/>
+                            <constraint firstItem="hHD-o0-oaj" firstAttribute="centerX" secondItem="Xeb-Cz-Gd7" secondAttribute="centerX" id="q2g-Ng-vTE"/>
+                            <constraint firstItem="Xeb-Cz-Gd7" firstAttribute="height" secondItem="MOE-VY-adn" secondAttribute="height" id="suD-d0-Dvj"/>
+                            <constraint firstItem="hHD-o0-oaj" firstAttribute="top" secondItem="Xeb-Cz-Gd7" secondAttribute="bottom" constant="40" id="trn-7h-zum"/>
+                            <constraint firstItem="Xeb-Cz-Gd7" firstAttribute="top" secondItem="MOE-VY-adn" secondAttribute="bottom" constant="40" id="xmB-q4-tU0"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Contact" image="contact" id="pqK-Jp-0RD">
+                    <tabBarItem key="tabBarItem" title="Connect" image="link.circle" catalog="system" id="pqK-Jp-0RD">
                         <color key="badgeColor" red="0.84589116760000005" green="0.76558452840000002" blue="0.6879445314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="agF-SB-YB1"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="41R-se-9nA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2429" y="969"/>
         </scene>
     </scenes>
     <resources>
         <image name="Logo" width="280" height="280"/>
-        <image name="contact" width="33" height="33"/>
+        <image name="link.circle" catalog="system" width="128" height="121"/>
         <image name="music" width="33" height="33"/>
     </resources>
 </document>

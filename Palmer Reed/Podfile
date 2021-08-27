@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Palmer Reed' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Palmer Reed
+pod 'Firebase/Analytics'
+
+
+  target 'Palmer ReedTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Palmer ReedUITests' do
+    # Pods for testing
+  end
+
+end
